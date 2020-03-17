@@ -1,0 +1,135 @@
+/*
+ <!-- font-family: 'Roboto', sans-serif;        // for texts 
+font-family: 'Roboto Condensed', sans-serif;     // for titles  -->*/
+
+/*
+white  #e6e6ea  #fffefc
+yellow #ffd51c #fdd105
+black  #000
+
+*/
+
+
+
+body{
+	background-color: #000;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.bkimg1 {
+  height: 100vh; 
+  min-height: 500px;
+  background-image: url('../imgs/ft11.jpeg');
+  opacity: 2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.bkimg2 {
+  height: 100vh;  
+  min-height: 500px;
+  background-image: url('../imgs/fit9.jpeg');
+  opacity:0.5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.widthscn{
+height: 100vh;  /*if the min height 100vh-94px for navbarbackground*/
+ min-height: 500px;
+
+}
+
+
+/* backgrounds*/
+.bgblack{
+	background-color: #000;
+}
+
+.bgyellow{
+	background-color: #fdd105;
+}
+
+.bgwhite{
+	background-color: #fffefc;
+}
+
+
+/*colour fonts */
+.yellowf{
+	color:#fdd105;
+}
+
+.whitef{
+	color:#fffefc;
+}
+
+.blackf{
+	color:#000;
+}
+
+
+/*font family */
+.rob{
+       font-family: 'Roboto', sans-serif;   
+}
+
+/*nav bar*/
+/*Nav bar Brand*/
+.navbar-light .navbar-brand{
+	font-size: 2rem;
+	color: #fffefc;
+}
+
+.navbar-light .navbar-brand:hover{
+ color: #fdd105;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fffefc;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fdd105;
+	background-color: #000;
+}
+
+ .navbar-light .navbar-nav .active > .nav-link{
+ 	color:#fffefc;
+ }
+ .navbar-light .navbar-nav .active > .nav-link:hover{
+ 	color: #fdd105;
+ 	background-color: #000;
+ }
+
+/*Header */
+.btn-primary:hover {
+     background-color: white;
+    color: black;
+}
+.btn-primary{
+	background-color:#fdd105;
+	color:black; 
+}
+
+/*border radius*/
+.border {
+    border: 7px solid red !important;
+}
+
+.border-secondary{
+border: 3px solid #000 !important;
+}
+
+/*yellow colour text*/
+ .yellowbg{
+ 	color:#f7d736;
+ }
+
+
+ 
