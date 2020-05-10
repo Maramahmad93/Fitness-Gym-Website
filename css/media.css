@@ -12,7 +12,7 @@
   	   }
 
   	   .gymmingbg{
-  	   	height: 170vh;
+  	   	height: 200vh;
   	   }
 
 
@@ -23,10 +23,14 @@
 }
 
 .bmibg{
-	height: 170vh;
+	height: 180vh;
 }
 .video{
 	width:500px;
+}
+}
+.oursevicesbg{
+  height: 120vh;
 }
 
 
